@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <Target Name="PreBuild" AfterTargets="PreBuildEvent">
-    <Exec Command="ping -n 5 <HTB-TUN0-IP>" />
+    <Exec Command="ping -n 5 10.10.14.12" />
   </Target>
 
 </Project>
